@@ -1,0 +1,52 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.bigcontainer {
+	width: 960px;
+    height: 1000px;
+	max-width: 100%;
+    max-height: 100%;
+	padding: 3px;
+	margin: 0 auto;
+}
+
+.midcontainer{
+    background: deepskyblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    background: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
+.item li{
+    display: inline;
+    padding: 20px;
+}
+
+.cont2{
+    display: flex;
+    height: 200px;
+    padding: 3px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.item2{
+    padding: 20px;
+    flex: 1;
+}
+
+.bottom{
+    height: 100px;
+    border: 3px solid black;
+}
+
+img {
+    display: inline;
+}
